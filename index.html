@@ -1,0 +1,38 @@
+<html>
+    <head>
+<title>My Family </title>
+    </head>
+    <body>
+<audio id="video" src="
+61zTGIEvQoL (1).jpg
+">
+
+</audio>
+<p id="first">My Family Book</p>
+<img id="album" src="portrait-handsome-young-man-white-260nw-1307754466.webp">
+<div>
+<button type="button" id="slide" onclick="nextslide()">Nextslide</button>
+</div>
+<script>
+var images=[
+"61zTGIEvQoL (1).jpg",
+"portrait-handsome-young-man-white-260nw-1307754466.webp",
+"87e93098bcad947b972e47fae9be2379.jpg",
+"122760736-stock-vector-little-girl-avatar-character-vector-illustration-design.jpg",
+];
+var i=0;
+function nextslide(){
+if(i=3)
+{
+    i=0;
+}
+
+document.getElementById("album").src=images[i];
+i++;
+
+
+
+}
+</script>
+    </body>
+</html>
